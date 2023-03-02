@@ -1,0 +1,774 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 375px;
+  height: 2615px;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+.skilled_style {
+  width: 89px;
+  height: 35px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+  position: absolute;
+  top: 22px;
+  left: 16px;
+}
+
+.get_btn_style {
+  width: 140px;
+  height: 48px;
+  border-radius: 28px;
+  border: none;
+  background-color: #13183f;
+  position: absolute;
+  top: 16px;
+  left: 219px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.title_style {
+  width: 343px;
+  height: 101px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+  position: absolute;
+  top: 102px;
+  left: 16px;
+}
+
+.main_par {
+  width: 343px;
+  height: 78px;
+  position: absolute;
+  top: 229px;
+  left: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.second_btn {
+  width: 167px;
+  height: 56px;
+  border-radius: 31.5px;
+  border: none;
+  position: absolute;
+  top: 331px;
+  left: 16px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.hero_style {
+  position: absolute;
+  top: 400px;
+  left: -25px;
+}
+
+.tablet_hero {
+  /* width: 400px;
+  height: 216px; */
+  display: none;
+  position: absolute;
+  top: -85px;
+  left: 370px;
+}
+
+.desktop_hero {
+  display: none;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 343px;
+  /* height: 259px; */
+  position: absolute;
+  top: 800px;
+  left: 16px;
+  gap: 40px;
+}
+
+.Courses_heading_style {
+  width: 343px;
+  height: 120px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg_styles {
+  position: absolute;
+  top: -24px;
+  left: 28px;
+}
+
+.Course_heading_text_style {
+  width: 286px;
+  height: 64px;
+}
+
+.general_style {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  height: 259px;
+  position: relative;
+}
+
+.box_heading_style {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  position: absolute;
+  top: 56px;
+  left: 28px;
+}
+
+.box_para_style {
+  width: 286px;
+  height: 78px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  position: absolute;
+  top: 97px;
+  left: 28px;
+}
+
+.box_btn_style {
+  border: none;
+  background-color: #fff;
+  height: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  position: absolute;
+  top: 199px;
+  left: 28px;
+}
+
+.ftr_style {
+  width: 375px;
+  height: 120px;
+  background: #13183f;
+
+  top: 2495px;
+  position: relative;
+}
+
+.ftr_text_style {
+  width: 89px;
+  height: 35px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #fff;
+  position: absolute;
+  top: 43px;
+  left: 16px;
+}
+
+.ftr_button_style {
+  width: 140px;
+  height: 48px;
+  border: none;
+  position: absolute;
+  top: 36px;
+  left: 219px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  border-radius: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 768px;
+    height: 1780px;
+    position: relative;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    overflow: hidden;
+  }
+
+  .skilled_style {
+    width: 89px;
+    height: 35px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.28px;
+    color: #13183f;
+    position: absolute;
+    top: 31px;
+    left: 39px;
+  }
+
+  .get_btn_style {
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    background-color: #13183f;
+    position: absolute;
+    top: 24px;
+    left: 588px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+  }
+
+  .title_style {
+    width: 326px;
+    height: 101px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50.4px;
+    color: #13183f;
+    position: absolute;
+    top: 171px;
+    left: 39px;
+  }
+
+  .main_par {
+    width: 398px;
+    height: 78px;
+    position: absolute;
+    top: 297px;
+    left: 39px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869a;
+  }
+
+  .second_btn {
+    width: 167px;
+    height: 56px;
+    border-radius: 31.5px;
+    border: none;
+    position: absolute;
+    top: 399px;
+    left: 39px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+  }
+
+  .hero_style {
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: -25px;
+  }
+
+  .tablet_hero {
+    /* width: 400px;
+    height: 216px; */
+    display: block;
+    position: absolute;
+    top: -85px;
+    left: 370px;
+  }
+
+  .desktop_hero {
+    display: none;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* width: 768px; */
+    column-gap: 10px;
+    row-gap: 56px;
+    position: absolute;
+    top: 641px;
+    left: 39px;
+
+    /* position: absolute; */
+  }
+
+  .Courses_heading_style {
+    width: 339px;
+    height: 259px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .svg_styles {
+    position: absolute;
+    top: -24px;
+    left: 28px;
+  }
+
+  .Course_heading_text_style {
+    width: 286px;
+    height: 64px;
+    position: absolute;
+    top: 56px;
+    left: 32px;
+  }
+
+  .general_style {
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    width: 339px;
+    height: 259px;
+    position: relative;
+  }
+
+  .box_heading_style {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25.2px;
+    color: #13183f;
+    position: absolute;
+    top: 56px;
+    left: 32px;
+  }
+
+  .box_para_style {
+    width: 286px;
+    height: 78px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869a;
+    position: absolute;
+    top: 97px;
+    left: 32px;
+  }
+
+  .box_btn_style {
+    border: none;
+    background-color: #fff;
+    height: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f74780;
+    position: absolute;
+    top: 199px;
+    left: 28px;
+  }
+
+  .ftr_style {
+    width: 768px;
+    height: 120px;
+    background: #13183f;
+
+    top: 1640px;
+    position: relative;
+  }
+
+  .ftr_text_style {
+    width: 89px;
+    height: 35px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #fff;
+    position: absolute;
+    top: 43px;
+    left: 40px;
+  }
+
+  .ftr_button_style {
+    width: 140px;
+    height: 48px;
+    border: none;
+    position: absolute;
+    top: 36px;
+    left: 589px;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+    border-radius: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 1440px;
+    height: 1845px;
+    position: relative;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    overflow: hidden;
+  }
+
+  .skilled_style {
+    width: 114px;
+    height: 45px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #13183f;
+    position: absolute;
+    top: 29px;
+    left: 165px;
+  }
+
+  .title_style {
+    width: 457px;
+    height: 143px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183f;
+    position: absolute;
+    top: 252px;
+    left: 165px;
+  }
+
+  .main_par {
+    width: 445px;
+    height: 84px;
+    position: absolute;
+    top: 424px;
+    left: 165px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869a;
+  }
+
+  .second_btn {
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    border: none;
+    position: absolute;
+    top: 548px;
+    left: 165px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+  }
+
+  .second_btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+
+  .hero_style {
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: -25px;
+  }
+
+  .tablet_hero {
+    /* width: 400px;
+    height: 216px; */
+    display: block;
+    position: absolute;
+    top: -85px;
+    left: 370px;
+    display: none;
+  }
+
+  .desktop_hero {
+    display: block;
+    position: absolute;
+    top: -130px;
+    left: 715px;
+  }
+
+  .get_btn_style {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    background-color: #13183f;
+    position: absolute;
+    top: 24px;
+    left: 1108px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+  }
+
+  .get_btn_style:hover {
+    cursor: pointer;
+    background: #666ca3;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* width: 768px; */
+    column-gap: 30px;
+    row-gap: 80px;
+    position: absolute;
+    top: 861px;
+    left: 165px;
+
+    /* position: absolute; */
+  }
+
+  .Courses_heading_style {
+    width: 350px;
+    height: 322px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .svg_styles {
+    position: absolute;
+    top: -24px;
+    left: 28px;
+  }
+
+  .Course_heading_text_style {
+    width: 286px;
+    height: 120px;
+    position: absolute;
+    top: 64px;
+    left: 32px;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    font-weight: 40px;
+    color: #ffffff;
+  }
+
+  .general_style {
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    width: 350px;
+    height: 322px;
+    position: relative;
+  }
+
+  .box_heading_style {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183f;
+    position: absolute;
+    top: 64px;
+    left: 32px;
+  }
+
+  .box_para_style {
+    width: 286px;
+    height: 78px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869a;
+    position: absolute;
+    top: 118px;
+    left: 32px;
+  }
+
+  .box_btn_style {
+    border: none;
+    background-color: #fff;
+    height: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f74780;
+    position: absolute;
+    top: 254px;
+    left: 32px;
+  }
+
+  .box_btn_style:hover {
+    cursor: pointer;
+    color: #ffa7c3;
+  }
+
+  .ftr_style {
+    width: 1440px;
+    height: 120px;
+    background: #13183f;
+
+    top: 1725px;
+    position: relative;
+  }
+
+  .ftr_text_style {
+    width: 89px;
+    height: 35px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #fff;
+    position: absolute;
+    top: 37px;
+    left: 165px;
+  }
+
+  .ftr_button_style {
+    width: 167px;
+    height: 56px;
+    border: none;
+    position: absolute;
+    top: 32px;
+    left: 1108px;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+    border-radius: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+  }
+
+  .ftr_button_style:hover {
+    cursor: pointer;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  }
+}
